@@ -4,7 +4,7 @@
 ![BRscript Logo](src/logo.png)
 #
 
-Esse projeto tem um projeto irmão com a mesma proposta, mas utilizando a linguagem Python. [Ele está disponível aqui.](https://github.com/duxtec/piton) 
+Este projeto tem um projeto irmão chamado [Píton](https://github.com/duxtec/piton). Ele compartilha a mesma proposta deste projeto, mas utiliza a linguagem Python.
 
 Se você deseja aprender programação em Javascript em um ambiente completamente em português, a biblioteca BRscript é a escolha certa para você! Com uma sintaxe próxima ao Javascript convencional, mas totalmente em português, a BRscript torna o aprendizado de algoritmos e lógica de programação mais acessível e amigável para falantes da língua portuguesa.
 
