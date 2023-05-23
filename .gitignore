@@ -1,0 +1,26 @@
+# Arquivos do Visual Studio Code
+.vscode/
+*.code-workspace
+.vscode/
+.vs/
+.settings/
+.project
+*~
+*.swp
+.state/
+.history/
+*.bak
+*.tmp
+
+# Node.js
+node_modules/
+
+# Arquivos de build JavaScript
+dist/
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.log.*
+*.swp
+.DS_Store

@@ -1,0 +1,48 @@
+{
+  "name": "brscript",
+  "version": "1.0.2",
+  "description": "Biblioteca para ensino de Python em Português.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./classe": "./src/classe/index.js",
+    "./condicionador": "./src/condicionador/index.js",
+    "./conversor": "./src/conversor/index.js",
+    "./erro": "./src/erro/index.js",
+    "./escritor": "./src/escritor/index.js",
+    "./importador": "./src/importador/index.js",
+    "./ledor": "./src/ledor/index.js",
+    "./repetidor": "./src/repetidor/index.js",
+    "./verificador": "./src/verificador/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxtec/brscript.git"
+  },
+  "keywords": [
+    "Brasil",
+    "Português",
+    "algoritmo",
+    "aprendizado",
+    "pseudocódigo",
+    "portugol",
+    "ensino"
+  ],
+  "author": "Dux Tecnologia",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/duxtec/brscript/issues"
+  },
+  "homepage": "https://github.com/duxtec/brscript#readme",
+  "dependencies": {
+    "complex": "^3.0.1"
+  },
+  "devDependencies": {}
+}
