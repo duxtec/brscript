@@ -12,9 +12,9 @@ Se você deseja aprender programação em Javascript em um ambiente completament
 
 Para começar a utilizar a biblioteca BRscript, siga estes passos simples:
 
-1. Certifique-se de ter o Node(Javascript) instalado em sua máquina.
+1. Certifique-se de ter o Node(JavaScript) instalado em sua máquina.
 
-2. Abra o terminal ou prompt de comando.
+2. Abra o terminal ou prompt de comando nas pasta desejada.
 
 3. Execute o seguinte comando para instalar a biblioteca:
 
@@ -25,10 +25,31 @@ npm install brscript
 
 ## Como usar
 
+Abra o arquivo "package.json" presente na pasta e adicione o código abaixo:
+
+```Json
+{
+  "type": "module",
+  "dependencies": {
+    "brscript": "^1.0.2"
+  }
+}
+```
+
 Após a instalação, você está pronto para começar a utilizar a BRscript em seus projetos Javascript. Importe todos os módulos e funções com o seguinte comando e comece a explorar:
 
 ```Javascript
-import brscript
+import {
+  condicionador,
+  conversor,
+  erro,
+  escritor,
+  importador,
+  ledor,
+  repetidor,
+  verificador
+}
+from 'brscript';
 ```
 #
 
